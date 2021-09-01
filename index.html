@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>jscalculator.com</title>
+		<link rel="stylesheet" type="text/css" href="css/Calculate.css">
+	</head>
+	<body>	
+		<header>
+			<div>
+				<h1 class="div-container">Loan Calculator</h1>
+			</div>
+		</header>
+		<section>
+			<div>
+				<h2>Amount</h2>
+				<input type="number" name="amount" placeholder=" How much do you want" class="input_amount">
+			</div>
+			<div> 
+				<h2>Duration</h2>
+				<select class="duration">
+					<option>Select</option>
+					<option>3 Months</option>
+					<option>6 Months</option>
+					<option>1 year</option>
+					<option>2 years</option>
+					<option>5 years</option>
+				</select>
+			</div>
+			<div>
+				<button class="button" onclick="computeLoan()">Calculate</button>
+			</div>
+			<div>
+				<h1 class="input_result">$0.00</h1>
+			</div>
+		</section>
+		<footer>
+			<p> motto: Securing lives and properties</p>
+		</footer>
+		<script type="text/javascript" src="js/calculate.js"></script>
+	</body>
+
+</html>
